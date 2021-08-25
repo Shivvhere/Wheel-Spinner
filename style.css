@@ -49,6 +49,7 @@ body{
     /* border: 2px solid black; */
 	left:135px;
 }
+
 .container .one{
 	background-color: violet;
 	left:50%;
@@ -207,9 +208,13 @@ body{
 	display: block;
 	position: absolute;
 	height: 100px;
-	width: 600px;
+	width: 400px;
 	top: 50px;
 	left: auto;
+}
+
+.center-img:hover,.left-top:hover,.right-top:hover{
+	border: 10px solid orange;
 }
 
 .left-top{
@@ -232,5 +237,16 @@ body{
 
 .menu-btn:hover{
 	background-color: white;
+	border: 4px solid orange;
 }
 
+.arrow{
+	border: none;
+	display: block;
+	position: absolute;
+	top: auto;
+	left: 310px;
+	z-index: 1;
+	height: 300px;
+	width: 400px;
+}
